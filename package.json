@@ -1,0 +1,27 @@
+{
+  "name": "markdown-editor",
+  "version": "1.0.0",
+  "description": "live markdown editor",
+  "main": "index.js",
+  "scripts": {
+    "heroku-postbuild": "npm run build",
+    "build": "webpack -p",
+    "dev": "webpack -d --watch"
+  },
+  "keywords": [
+    "react",
+    "markdown"
+  ],
+  "author": "sriram",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.22.1",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.22.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "showdown": "^1.6.4",
+    "webpack": "^2.2.1"
+  }
+}
